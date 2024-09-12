@@ -1,10 +1,13 @@
-import subprocess
+"""
+This code generates random integers for input array
+"""
+import random
 
 
 def random_array(arr):
-    shuffled_num = None
-    for i in range(len(arr)):
-        shuffled_num = subprocess.run(
-            ["shuf", "-i1-20", "-n1"], capture_output=True)
-        arr[i] = int(shuffled_num.stdout)
+    """
+    This function generates 20 random integers to return as input array
+    """
+    for i, _ in enumerate(arr):
+        arr[i] = random.randint(1, 20)
     return arr
