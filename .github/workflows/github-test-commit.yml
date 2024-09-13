@@ -25,7 +25,7 @@ jobs:
                   
             - name: Static Analysis Tools
               run: | 
-                  aautopep8 hw2_debugging.py > post_traces/autopep8_trace.txt
+                  autopep8 hw2_debugging.py > post_traces/autopep8_trace.txt
                   pylint hw2_debugging.py > post_traces/pylint_trace.txt
                   pyright hw2_debugging.py > post_traces/pyright_trace.txt
 
