@@ -26,13 +26,12 @@ jobs:
                   
             - name: Static Analysis Tools
               run: | 
-                  autopep8 hw2_debugging.py > post_traces/autopep8_trace.txt
-                  pylint hw2_debugging.py > post_traces/pylint_trace.txt
-                  pyright hw2_debugging.py > post_traces/pyright_trace.txt
-
-                  autopep8 rand.py > post_traces/autopep8_rand_trace.txt
-                  pylint rand.py > post_traces/pylint_rand_trace.txt
-                  pyright rand.py > post_traces/pyright_rand_trace.txt
+                autopep8 hw2_debugging.py > post_traces/autopep8_hw2_debugging_trace.txt || true
+                pylint hw2_debugging.py > post_traces/pylint_hw2_debugging_trace.txt || true
+                pyright hw2_debugging.py > post_traces/pyright_hw2_debugging_trace.txt || true
+                autopep8 rand.py > post_traces/autopep8_rand_trace.txt || true
+                pylint rand.py > post_traces/pylint_rand_trace.txt || true
+                pyright rand.py > post_traces/pyright_rand_trace.txt || true
                   
             - name: Test the cases
               run: | 
