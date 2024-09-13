@@ -17,3 +17,5 @@
 </p>
 
 <h1 align="center">Merge Sort</h1>
+
+Merge sort is a divide-and-conquer sorting algorithm that splits an array into two halves, recursively sorts each half, and then merges the two sorted halves back together. It works by dividing the problem into smaller subproblems, solving them independently, and then combining the results. Merge sort is efficient with a time complexity of \(O(n \log n)\) and is stable, meaning it preserves the relative order of equal elements. However, it requires additional memory for the merging process, making its space complexity \(O(n)\).
