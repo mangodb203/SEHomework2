@@ -11,11 +11,17 @@
 <a href="https://codecov.io/gh/mangodb203/SEHomework2" > 
  <img src="https://codecov.io/gh/mangodb203/SEHomework2/graph/badge.svg?token=8G23AKFXSO"/> 
  </a>
-[![Autopep8](https://github.com/mangodb203/SEHomework2/actions/workflows/autopep8.yml/badge.svg)](https://github.com/mangodb203/SEHomework2/actions/workflows/autopep8.yml)
-[![Pylint](https://github.com/mangodb203/SEHomework2/actions/workflows/pylint.yml/badge.svg)](https://github.com/mangodb203/SEHomework2/actions/workflows/pylint.yml)
-[![Pyright](https://github.com/mangodb203/SEHomework2/actions/workflows/pyright.yml/badge.svg)](https://github.com/mangodb203/SEHomework2/actions/workflows/pyright.yml)
+<a href="https://github.com/mangodb203/SEHomework2/actions/workflows/autopep8.yml">
+ <img src="https://github.com/mangodb203/SEHomework2/actions/workflows/autopep8.yml/badge.svg" alt="Autopep8">
+</a>
+<a href="https://github.com/mangodb203/SEHomework2/actions/workflows/pylint.yml">
+ <img src="https://github.com/mangodb203/SEHomework2/actions/workflows/pylint.yml/badge.svg" alt="Pylint">
+</a>
+<a href="https://github.com/mangodb203/SEHomework2/actions/workflows/pyright.yml">
+ <img src="https://github.com/mangodb203/SEHomework2/actions/workflows/pyright.yml/badge.svg" alt="Pyright">
+</a>
 </p>
 
 <h1 align="center">Merge Sort</h1>
 
-Merge sort is a divide-and-conquer sorting algorithm that splits an array into two halves, recursively sorts each half, and then merges the two sorted halves back together. It works by dividing the problem into smaller subproblems, solving them independently, and then combining the results. Merge sort is efficient with a time complexity of $$O(n \log n)$$ and is stable, meaning it preserves the relative order of equal elements. However, it requires additional memory for the merging process, making its space complexity $$O(n)$$.
+Merge sort is a divide-and-conquer sorting algorithm that splits an array into two halves, recursively sorts each half, and then merges the two sorted halves back together. It works by dividing the problem into smaller subproblems, solving them independently, and then combining the results. Merge sort is efficient with a time complexity of O(n log n) and is stable, meaning it preserves the relative order of equal elements. However, it requires additional memory for the merging process, making its space complexity O(n).
