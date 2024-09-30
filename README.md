@@ -11,14 +11,14 @@
 <a href="https://codecov.io/gh/mangodb203/SEHomework2" > 
  <img src="https://codecov.io/gh/mangodb203/SEHomework2/graph/badge.svg?token=8G23AKFXSO"/> 
  </a>
-<a href="https://github.com/mangodb203/SEHomework2/actions/workflows/autopep8.yml">
- <img src="https://github.com/mangodb203/SEHomework2/actions/workflows/autopep8.yml/badge.svg" alt="Autopep8">
+<a href="https://github.com/mangodb203/SEHomework2/actions/workflows/autopep8.yaml">
+ <img src="https://github.com/mangodb203/SEHomework2/actions/workflows/autopep8.yaml/badge.svg" alt="Autopep8">
 </a>
-<a href="https://github.com/mangodb203/SEHomework2/actions/workflows/pylint.yml">
- <img src="https://github.com/mangodb203/SEHomework2/actions/workflows/pylint.yml/badge.svg" alt="Pylint">
+<a href="https://github.com/mangodb203/SEHomework2/actions/workflows/pylint.yaml">
+ <img src="https://github.com/mangodb203/SEHomework2/actions/workflows/pylint.yaml/badge.svg" alt="Pylint">
 </a>
-<a href="https://github.com/mangodb203/SEHomework2/actions/workflows/pyright.yml">
- <img src="https://github.com/mangodb203/SEHomework2/actions/workflows/pyright.yml/badge.svg" alt="Pyright">
+<a href="https://github.com/mangodb203/SEHomework2/actions/workflows/pyright.yaml">
+ <img src="https://github.com/mangodb203/SEHomework2/actions/workflows/pyright.yaml/badge.svg" alt="Pyright">
 </a>
 </p>
 
