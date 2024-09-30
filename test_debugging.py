@@ -1,3 +1,7 @@
+import hw2_debugging
+
+merge_sort = hw2_debugging.merge_sort
+
 def test_merge_sort_specific_cases():
     """Test merge_sort with specific input arrays"""
     # Test case 1: Array with repeated elements
