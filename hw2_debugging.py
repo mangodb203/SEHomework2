@@ -17,7 +17,7 @@ def merge_sort(arr):
     Returns:
     list: The sorted list.
     """
-    if len(arr) == 1:
+    if len(arr) <= 1:
         return arr
 
     half = len(arr)//2
